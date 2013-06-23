@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff url(../i/bgdrop.png) top left repeat-y;
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+}
+h1 {
+	background: #4d4d4d url(../i/title-bg.png) bottom left repeat-x;
+	color: #fff;
+	margin: 0 0 10px 0;
+	padding: 10px 10px 10px 275px;
+}
+a {
+	color: #c00;
+}
+div#maincontent {
+	margin-left: 275px;
+	width: 35em;
+}
+div#sideinfo {
+	float: left;
+	width: 250px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+}
+div#logo {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+div#siphon {
+	font-size: 24pt;
+	font-family: Futura, "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+}
+div#footer {
+	margin-top: 10px;
+	font-size: 10pt;
+	color: #999;
+	width: 224px;
+	position: fixed;
+	bottom: 10px;
+	left: 16px;
+}
+div.sidebox {
+	padding: 16px;
+	text-align: left;
+	border-top: 1px solid #c00;
+	margin-top: 5px;
+}
+div.sidebox p {
+	margin-top: 0;
+	font-size: smaller;
+}
+div#sideinfo a {
+	color: #c00;
+}
+div.sidebox h3 {
+	margin-top: 0;
+}
+h3.opname {
+	margin-bottom: 0;
+}
+p.description {
+	margin-top: 0;
+	font-size: smaller;
+}
+a.toggle {
+	background: #fff url(../i/arrow-right.png) center left no-repeat;
+	color: #600;
+	min-height: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px 0 1px 35px;
+	margin: 0;
+}
+a.toggle:hover {
+	color: #c00;
+}
+a.toggleon {
+	background: #fff url(../i/arrow-down.png) center left no-repeat;
+	color: #600;
+	min-height: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 8px 0 1px 35px;
+	margin: 0;
+}
+a.toggleon:hover {
+	color: #c00;
+}
+div.files a {
+	background: #600;
+	color: #fff;
+	padding: 3px;
+	text-decoration: none;
+}
+div.files a:hover {
+	background: #c00;
+}
+div.serviceinfo p {
+	
+}
+p.instructions {
+	font-size: smaller;
+	color: #666;
+}
+div.details {
+	background: #eee;
+	margin-left: 2em;
+}
+div.detailhide {
+	display: none;
+}
+table.detailtable {
+	width: 100%;
+}
+table.detailtable th {
+	text-align: left;
+	font-size: 8pt;
+	vertical-align: top;
+	border-bottom: 1px dotted #ccc;
+}
+table.detailtable td {
+	font-size: 8pt;
+	border-bottom: 1px dotted #ccc;
+}
+table.detailtable th.level2 {
+	padding-left: 1em;
+}
+
+div.journalentry {
+	border-top: 1px solid #900;
+	margin-bottom: 1.5em;
+}
+
+div.journalentry h2 {
+	color: #c00;
+	margin-top: 2px;
+}
+
+div.journalentry div.journaldate {
+	color: #fff;
+	padding: 2px;
+	text-align: right;
+	float: right;
+	line-height: 90%;
+	background: #900;
+}
+
+div.journalentry div.body {
+	
+}
